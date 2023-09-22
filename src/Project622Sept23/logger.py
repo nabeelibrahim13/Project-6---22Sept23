@@ -16,6 +16,6 @@ logging.basicConfig(
     level=logging.INFO
     )
 
-print("logger file is executed")
+logging.info("logger file is executed")
 
 

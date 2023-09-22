@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+</head>
+<body>
+    <h1>All user details:</h1>
+    <table border="1">
+        {%for a in all_users%}
+        <tr>
+            <td>{{a[0]}}</td>
+            <td>{{a[1]}}</td>
+            <td>{{a[2]}}</td>
+            <td>{{a[3]}}</td>
+            <td>{{a[4]}}</td>
+            <td>{{a[5]}}</td>
+            <td>{{a[6]}}</td>
+            <td>{{a[7]}}</td>
+            <td>{{a[8]}}</td>
+            <td>{{a[9]}}</td>
+        </tr>
+        {%endfor%}
+    </table>
+</body>
+</html>
